@@ -1,0 +1,9 @@
+<resources>
+    <color name="bg">#ffffff</color>
+    <color name="text">#4d91db</color>
+    <color name="icon">#4d91db</color>
+    <!-- Dark Mode -->
+    <color name="bgdark">#06294c</color>
+    <color name="textdark">#ffffff</color>
+    <color name="icondark">#4d91db</color>
+</resources>

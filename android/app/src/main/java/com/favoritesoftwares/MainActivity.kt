@@ -1,6 +1,8 @@
 package com.favoritesoftwares
 
 import android.os.Bundle;
+import org.devio.rn.splashscreen.SplashScreen;
+
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
@@ -22,6 +24,8 @@ class MainActivity : ReactActivity() {
       DefaultReactActivityDelegate(this, mainComponentName, fabricEnabled)
       
       override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(null)
+        setTheme(R.style.Theme_MyApp_Dark)
+        SplashScreen.show(this);
+        super.onCreate(null)
   }
 }
